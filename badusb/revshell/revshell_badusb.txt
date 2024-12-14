@@ -1,5 +1,5 @@
 ALT F2
-STRINGLN gnome-terminal --maximize
+STRINGLN gnome-terminal
 DELAY 400
 
 STRINGLN screen -S terminal
